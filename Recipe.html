@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Contact</title>
+</head>
+<body>
+
+    <h1>Wei Li</h1>
+    <p>Phone number: 18293782937</p>
+    <p>Email: 12983842@gmail.com</p>
+
+
+        <!-- Form:
+            method, 把下面的信息post给Email的内容，用text/plain而非utf-8编码
+      label: 用于解释、提问，会讲text显示上去
+      input：用于各种类型的输入, 其type可以是text, date, password, email, file, submit, color, checkbox, etc.
+            input的name会再enctype为text/plain的时候将用户输入值和name联系起来
+     -->
+     <hr>
+     <h3>Contact Me</h3>
+     <form action="mailto:1175089795@qq.com" method="post" enctype="text/plain">  
+        <label for="">Favorite Color:</label>
+        <input type="color" name="yourColor" id=""><br><br>
+        <label for="">Are you a cat person?</label>
+        <input type="checkbox" name="yourChoice"><br><br>
+        <label for="">Name 3 reason for keeping a cat.</label><br><br>
+        <textarea name="yourAnswer" id="" cols="30" rows="10">Give me your thought!</textarea><br>
+        <input type="email" name="yourEmail"><br><br>
+        <input type="submit">
+      </form>
+
+</body>
+</html>

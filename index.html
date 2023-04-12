@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1><a href = "Recipe.html">Tony</a>'s <bold>Diet</bold></h1>
+    <hr />
+    <h3>This is what I eat for a <em>week</em> !</h3>
+    <p>Monday: Hamburger from Mc. Donald, <strong>Milkshake</strong>.</p>
+    <ol>
+      <li>First bullet point</li>
+      <ol type="i">
+        <!-- type: 'a'/'A'-letter, 'i'/'I'-roman, '1'-number-->
+        <li>First sub-bullet <a href = "https://www.google.com/search?q=point">point</a></li>
+        <li>Second sub-bullet point</li>
+      </ol>
+      <li>Second bullet point</li>
+    </ol>
+    <!-- <img src="D:\image\1279029.jpg" alt="A picture of my cat.">  picture too large--> 
+    <img src="kitten.jpg" alt="My kitten">
+
+    <!-- Table
+    Element: table, tr--table row, td-- table data(a cell), 
+    thead/tbody/tfoot(to structure a table), th--table head(a cell)
+    表格都是一行一行排列，然后每行一个一个格子从左到右排布
+    -->
+    <table cellspacing="20">
+      <thead>
+        <tr>
+          <th>Pet Name</th>
+          <th>Color</th>
+          <th>Cuteness</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Root</td>
+          <td>Black and White</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>North</td>
+          <td>Yellow</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+
+    <!-- Nested tables: Inside a td, you can build another table -->
+    <table>
+      <tr>
+        <td>
+          <table cellspacing="20">
+            <thead>
+              <tr>
+                <th>Pet Name</th>
+                <th>Color</th>
+                <th>Cuteness</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Root</td>
+                <td>Black and White</td>
+                <td>⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>North</td>
+                <td>Yellow</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+            </tbody>
+            <tfoot></tfoot>
+          </table>
+        </td>
+        <td>
+          <table cellspacing="20">
+            <thead>
+              <tr>
+                <th>Pet Name</th>
+                <th>Color</th>
+                <th>Cuteness</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Root</td>
+                <td>Black and White</td>
+                <td>⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>North</td>
+                <td>Yellow</td>
+                <td>⭐⭐⭐⭐⭐</td>
+              </tr>
+            </tbody>
+            <tfoot></tfoot>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Form:
+      label: 用于解释、提问，会讲text显示上去
+      input：用于各种类型的输入
+     -->
+    <form action="">
+      <label for="">Favorite Color:</label>
+      <input type="color" name="" id=""><br>
+      <label for="">Are you a cat person?</label>
+      <input type="checkbox">
+      <label for="">Name 3 reason for keeping a cat.</label>
+      <input type="text">
+      <input type="date">
+      <input type="file">
+      <input type="submit">
+    </form>
+
+  </body>
+</html>
